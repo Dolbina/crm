@@ -3,7 +3,7 @@
 import React from 'react';
 import clsx from 'clsx';
 
-export interface ButtonProps {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   disabled?: boolean;
 }
 
